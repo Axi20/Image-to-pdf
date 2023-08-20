@@ -1,12 +1,12 @@
 # Image to PDF
 This is a Python console application that can be used to convert multiple images into a single PDF file.
 
+## Usage
 - To run the script, you need to have Python installed on your computer.
+- First you need to run this command from the terminal (from the directory where the script is located)`pip install pillow reportlab`
 - You can execute the script from the terminal using the command: `python img_to_pdf.py`
 - If you encounter an error message stating "python is not recognized as an internal or external command, operable program, or batch file," you should add the path to your Python executable to the Environment Variables and then restart the terminal.
-
-## Usage
-
+ 
 1. The program will prompt you to provide the directory path containing the images.
    - Please use the absolute path format, such as: "C:\Users\Username\Images"
    - If you leave this field empty (press Enter), the default directory where this script is located will be used.
